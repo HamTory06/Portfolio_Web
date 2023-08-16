@@ -1,0 +1,10 @@
+.MainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .MainBackground{
+    background-color: rgba(0,0,0,0.5);
+  }
