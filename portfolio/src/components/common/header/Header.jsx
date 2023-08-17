@@ -1,9 +1,15 @@
 import React from 'react'
+import "./Header.css"
 
 const Header = () => {
   return (
-    <header>
-      <div>Hamtory's Portfolio!</div>
+    <header className='mainHeader'>
+        <div className='ButtonWrap'>
+          <button className='button'>Project</button>
+          <button className='button'>Activity</button>
+          <button className='button'>Contest</button>
+          <button className='button'>Stack</button>
+        </div>
     </header>
   )
 }
