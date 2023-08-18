@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Header.css"
-import HamtoryIcon from "/Users/hamtory/Documents/github/Web/Portfolio_Web/portfolio/src/asset/MainPage/header/HamTory.png"
+import HamtoryIcon from "../../../asset/header/HamTory.png"
 
 const Header = () => {
   return (
