@@ -1,4 +1,4 @@
-import Main from "../components/MainPage/main/Main.jsx";
+import Main from "../components/MainPage/Main.jsx";
 import Footer from "../components/common/footer/Footer.jsx";
 import Header from "../components/common/header/Header.jsx";
 

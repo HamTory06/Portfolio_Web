@@ -1,11 +1,10 @@
 import React from 'react'
-import "./main.css"
-
+import "./Main.css"
 const Main = () => {
     return (
      <div className='main'>
-        <h1>Main페이지입니다</h1>
-     </div>   
+        <h1 className='text'>ActivityPage입니다</h1>
+     </div>
     )
 }
 

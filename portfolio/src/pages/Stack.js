@@ -1,14 +1,14 @@
-import Main from "../components/ProjectPage/Main.jsx";
 import Footer from "../components/common/footer/Footer.jsx";
 import Header from "../components/common/header/Header.jsx";
+import Main from "../components/StackPage/Main.jsx"
 
-function Project(){
+function Stack(){
     return(
-        <> 
+        <>
             <Header/>
             <Main/>
             <Footer/>
         </>
     )
 }
-export default Project;
+export default Stack
