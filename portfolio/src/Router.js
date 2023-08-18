@@ -1,7 +1,7 @@
 import React from 'react'
 import {BrowserRouter, Routes, Route} from "react-router-dom"
-import MainPage from './pages/MainPage/MainPage.js'
-import Projects from './pages/ProjectPage/Project.js'
+import MainPage from './pages/MainPage'
+import Projects from './pages/Project'
 
 const Router = () => {
   return (
