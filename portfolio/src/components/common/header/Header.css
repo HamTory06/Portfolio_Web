@@ -8,21 +8,22 @@
 }
 
 .button{
-    font-family: "Pretendard Light";
+    font-family: "Pretendard Thin";
     display: block;
     width : 10rem;
     margin: 20px 40px;
+    background-color: rgba(202, 202, 202, 0.501);
     font-size: 2rem;
-    background-color: #fff;
     color: #000;
     border: #fff;
 }
 
-/* button:hover{
-    
-} */
+button:hover{
+
+}
 
 .buttonWrap{
+    background-color: rgba(202, 202, 202, 0.501);
     margin: 0 auto;
     display: flex;;
 }

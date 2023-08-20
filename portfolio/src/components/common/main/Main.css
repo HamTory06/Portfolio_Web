@@ -1,0 +1,17 @@
+.root{
+  width: 100%;
+  background-color: #FFFFFF;
+  text-align: center;
+  height: 400vh;
+}
+
+.text{
+  font-size: 5rem;
+  text-align: center;
+  color: #000;
+  margin: 10;
+}
+
+.stacks{
+  
+}

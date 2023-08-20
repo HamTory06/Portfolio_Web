@@ -1,6 +1,6 @@
-import Main from "../components/MainPage/Main.jsx";
-import Footer from "../components/common/footer/Footer.jsx";
-import Header from "../components/common/header/Header.jsx";
+import Main from "../components/common/main/Main";
+import Footer from "../components/common/footer/Footer";
+import Header from "../components/common/header/Header";
 
 function MainPage() {
   return (
