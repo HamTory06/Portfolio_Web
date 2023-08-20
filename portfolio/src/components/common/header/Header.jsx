@@ -5,7 +5,6 @@ import "./Header.css"
 
 
 const Header = () => {
-
   return (
     <header className='mainHeader'>
         <div className='buttonWrap'>
@@ -19,10 +18,9 @@ const Header = () => {
             
           }}>Contest</button>
           <button className='button' onClick={() =>{
-
+            
           }}>Stack</button>
         </div>
-
     </header>
   )
 }
