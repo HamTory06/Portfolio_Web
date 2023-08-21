@@ -1,6 +1,7 @@
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css");
 
 .mainHeader{
+    backdrop-filter: blur(5px);
     position: fixed;
     width: 100vw;
 }
@@ -10,18 +11,17 @@
     display: block;
     width: 10rem;
     margin: 20px 40px;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0);
     font-size: 2rem;
     color: #000;
     border: #fff;
 }
 
-button:hover{
-
-}
+/* button:hover{
+    
+} */
 
 .buttonWrap{
-    background-color: #fff;
     justify-content: center;
     padding: 1rem 0;
     display: flex;

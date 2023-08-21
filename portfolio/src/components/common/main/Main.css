@@ -2,7 +2,30 @@
   width: 100%;
   background-color: #FFFFFF;
   text-align: center;
-  height: 400vh;
+  height: 500vh;
+}
+
+.home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.stacks{
+  height: 100vh;
+}
+
+.project{
+  height: 100vh;
+}
+
+.contest{
+  height: 100vh;
+}
+
+.activity{
+  height: 100vh;
 }
 
 .text{
@@ -11,13 +34,3 @@
   margin: 10;
 }
 
-.stacks{
-  
-}
-
-.main{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
