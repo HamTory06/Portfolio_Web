@@ -1,7 +1,6 @@
 .root{
-  width: 100%;
+
   background-color: #FFFFFF;
-  text-align: center;
   height: 500vh;
 }
 
@@ -12,25 +11,33 @@
   height: 100vh;
 }
 
-.stacks{
-  height: 100vh;
-}
-
-.project{
-  height: 100vh;
-}
-
-.contest{
-  height: 100vh;
-}
-
-.activity{
-  height: 100vh;
-}
-
-.text{
+h1{
   font-size: 5rem;
   color: #000;
   margin: 10;
 }
 
+h2{
+  text-align: center;
+}
+
+.imgWrap{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.page{
+  padding-top : 110px;
+  height: calc(100vh - 110px);
+}
+
+.stacksWrap{
+  margin: 100px 0 ;
+}
+
+img{
+  height: 6em;
+  margin: 0 10px;
+}
