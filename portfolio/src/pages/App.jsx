@@ -10,7 +10,7 @@ function App() {
   const stacks = useRef(null)
   const activity = useRef(null)
   const project = useRef(null)
-  const contest = useRef(null)
+  const award = useRef(null)
 
   const homeClick = () =>{
     home.current?.scrollIntoView({ behavior: "smooth" });
@@ -24,8 +24,8 @@ function App() {
   const projectClick = () =>{
     project.current?.scrollIntoView({ behavior: "smooth" });
   }
-  const contestClick = () =>{
-    contest.current?.scrollIntoView({ behavior: "smooth" });
+  const awardClick = () =>{
+    award.current?.scrollIntoView({ behavior: "smooth" });
   }
 
   return (
@@ -35,11 +35,11 @@ function App() {
       stacksClick={stacksClick}
       activityClick={activityClick}
       projectClick={projectClick}
-      contestClick={contestClick}
+      awardClick={awardClick}
     />
 
      <Main
-        Refs={{home :home, stacks: stacks, activity:activity, project:project, contest:contest}}/>
+        Refs={{home :home, stacks: stacks, activity:activity, project:project, award:award}}/>
      <Footer/>
      </>
     );

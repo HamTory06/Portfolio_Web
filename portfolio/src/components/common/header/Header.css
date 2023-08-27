@@ -17,18 +17,8 @@
     border: #fff;
 }
 
-/* button:hover{
-    
-} */
-
 .buttonWrap{
     justify-content: center;
     padding: 1rem 0;
     display: flex;
-}
-
-.iconImage{
-    margin: 10px 40px;
-    width: 8em;
-    height: 8em;
 }

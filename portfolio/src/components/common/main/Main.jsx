@@ -12,7 +12,13 @@ const Main = (props) => {
      <div className='root'>
 
         <div className='home' ref={props.Refs.home}>
-         <h1>경험하며 레벨업하는 개발자</h1>
+            <div className='AboutMe'>
+                <h2>안녕하세요 :&#41;<br/>경험하며 레벨업하는 개발자 황주완 입니다</h2>
+                <div className='BusinessCard'>
+                    
+                </div>
+            </div>
+            
         </div>
 
         <div className='page' ref={props.Refs.stacks}>
@@ -45,7 +51,7 @@ const Main = (props) => {
             
         </div>
 
-        <div className='page' ref={props.Refs.contest}>
+        <div className='page' ref={props.Refs.award}>
             
         </div>
 
